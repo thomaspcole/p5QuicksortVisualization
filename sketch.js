@@ -39,7 +39,7 @@ function setup(){
 
   //initialize p5 canvas
   let canvas = createCanvas(820,800);
-  canvas.print('canvasDiv');
+ // canvas.parent('canvasDiv');
 
   frameRate(30);
 }
